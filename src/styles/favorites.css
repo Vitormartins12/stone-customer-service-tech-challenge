@@ -1,0 +1,59 @@
+.wrapper.wrapper-fav {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 100px 180px;
+    column-gap: 3rem;
+}
+
+.fav-char-list,
+.fav-comic-list {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.fav-chars,
+.fav-comics {
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.fav-chars h2,
+.fav-comics h2 {
+    padding-bottom: 0;
+}
+
+.fav-char-list,
+.fav-comic-list {
+    padding: 5px 1rem;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.fav-item {
+    margin-bottom: 12px;
+}
+
+.fav-item:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #ED1D24;
+}
+
+.remove-fav {
+    font-size: 28px;
+}
+
+.remove-fav:hover {
+    cursor: pointer;
+    font-weight: bolder;
+    color: #ED1D24;
+}

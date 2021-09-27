@@ -1,0 +1,9 @@
+.home-btn {
+  width: 500px;
+}
+
+.app-home {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
